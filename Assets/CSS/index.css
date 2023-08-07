@@ -1,0 +1,16 @@
+#bio {
+    background-color: rgb(252, 215, 3);
+    height: 400px
+}
+
+.nav-link {
+    color: black;
+}
+
+#cmu-summary-text {
+    position: relative;
+}
+
+#cmu-summary{
+    position: relative;
+}

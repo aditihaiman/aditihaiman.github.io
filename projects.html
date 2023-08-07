@@ -6,32 +6,27 @@
         <title>My Projects</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="./Assets/js/main.js"></script>
     </head>
     <body>
-        <ul class="nav">
-            <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="">Projects</a>
-            </li>            
-            <li class="nav-item">
-                <a class="nav-link" href="">Work</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
+        <nav class="nav justify-content-end">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="">Projects</a>
+            <a class="nav-link" href="">Work</a>
+            <a class="nav-link" href="">Resume</a>
+        </nav>
+        
 
           
         <h1 class="d-flex p-2 rounded">See my projects!</h1>
 
-        <div class="projects">
-            <div class="project1" id="cmu">
+        <div class="container-lg projects">
+            <div class="container-lg project1" id="cmu">
                 <img src="./Assets/images/CMUPoster.png" height="500px">
             </div>
 
-            <div class="project2" id="usc">
+            <div class="container-lg project2" id="usc">
                 <img src="./Assets/images/USCPoster.png" height="500px">
             </div>
         </div>
