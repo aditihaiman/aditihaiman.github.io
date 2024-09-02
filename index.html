@@ -1,48 +1,85 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Aditi Haiman</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-        <link href="./Assets/CSS/index.css" rel="stylesheet">
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-        <script src="./Assets/js/main.js"></script>
-        
-    </head>
-    <body>
-        <nav class="nav m-3 d-flex" id="navbar">
-            <a class="nav-link active me-auto" aria-current="page" href="">Home</a>
-            <a class="nav-link" href="projects.html">Projects</a>
-            <a class="nav-link" href="">Work</a>
-            <a class="nav-link" href="">Resume</a>
-        </nav>
-        
 
-        <div class="d-flex m-4 justify-content-evenly" id="bio">
-            <h1 class="d-flex p-2 m-3" id="bio-text">Hello, world!</h1>
-            <img src="./Assets/images/aditi.png"  class="d-flex img-thumbnail m-4">
-        </div>
+<head>
 
-        <div class="container" id="project-summaries">
-            <div class="row m-3 text-center">
-                <h2>Projects</h2> 
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="data:,">
+
+    <!-- jquery -->
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+    <title>Aditi's Website</title>
+    <link href="./Assets/CSS/index.css" rel="stylesheet">
+    <script src="./Assets/js/main.js"></script>
+
+</head>
+
+<body class="container">
+    <nav class="navbar navbar-expand-lg navbar-light m-3" id="navbar">
+        <a class="nav-link pr-5" href="">Home</a>
+        <a class="nav-link pr-5" href="projects.html">Projects</a>
+        <a class="nav-link pr-5" href="">About Me</a>
+        <a class="nav-link pr-5" href="">Resume</a>
+    </nav>
+
+    <div class="container">
+        <div class="row m-4 p-5 base" id="bio">
+            <div class="col">
+                <div class="row p-2 m-3 ">
+                    <h1 class="bio-text font-weight-bold">Hello, world!</h1>
+
+                </div>
+                <div class="row p-2 m-3 bio-text">
+                    <p class="">I'm Aditi, a first year PhD student at the Human Computer Interaction Institute at Carnegie Mellon University. 
+                        I got my BA in Computer Science from Barnard College.
+                        
+                        My research interests include educational technology, digital learning games, and game design.</p>
+                </div>
             </div>
-            <div class="row m-3">
-                <div class="col" id="cmu-summary">
-                    <img src="./Assets/images/CMUPoster-small.png" class="img-thumbnail" id="cmu-summary-img">
-                    <p id="cmu-summary-text" class="text-center">Angle Jungle - CMU project</p>
-                </div>
-                <div class="col" id="usc-summary">
-                    <img src="./Assets/images/USCPoster-small.png" class="img-thumbnail">
-                </div>
-                <div class="col">
-                    <p>BARNARD</p>
-                </div>
+            <div class="col">
+                <img src="./Assets/images/aditi.png" class="img img-fluid img-thumbnail">
             </div>
         </div>
-        
-        
-    </body>
+    </div>
+
+
+    <div class="container" id="project-summaries">
+        <div class="m-3 pb-4 text-center">
+            <h2 id="projects">Projects</h2>
+        </div>
+        <div class="row m-3 pb-5">
+            <div class="col-4" id="cmu-summary">
+                <img src="./Assets/images/CMUPoster-small.png" class="img-thumbnail summary" id="cmu-summary-img">
+                <p id="cmu-summary-text" class="summary-text text-center">Angle Jungle - CMU REU Project</p>
+            </div>
+            <div class="col-4" id="usc-summary">
+                <img src="./Assets/images/USCPoster.png" class="img-thumbnail summary" id="usc-summary-img">
+                <p id="usc-summary-text" class="summary-text text-center">Music Cube - USC REU Project</p>
+            </div>
+            <div class="col-4" id="portable-piano-summary">
+                <img src="./Assets/images/Portable-Piano.jpeg" class="img-thumbnail summary" id="portable-piano-summary-img">
+                <p id="portable-piano-summary-text" class="summary-text text-center">Portable Piano - Creative Embedded Systems</p>
+            </div>
+        </div>
+        <div class="row m-3 pb-5">
+            <div class="col-4" id="bird-watching-summary">
+                <img src="./Assets/images/Bird-Watching.png" class="img-thumbnail summary" id="bird-watching-summary-img">
+                <p id="bird-watching-summary-text" class="summary-text text-center">Bird Watching Game - Creative Embedded Systems</p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
 </html>

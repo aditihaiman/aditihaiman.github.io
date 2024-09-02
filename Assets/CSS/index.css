@@ -1,16 +1,19 @@
-#bio {
-    background-color: rgb(252, 215, 3);
-    height: 400px
-}
+
 
 .nav-link {
     color: black;
+    font-size: larger;
 }
 
-#cmu-summary-text {
-    position: relative;
+.base{
+    background-color: #FC96AF;
 }
 
-#cmu-summary{
-    position: relative;
+.accent{
+    background-color: #52ECBC;
+}
+
+.bio-text{
+    font-weight: 300;
+    font-size: calc(1.75vw);
 }

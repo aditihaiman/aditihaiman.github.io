@@ -1,14 +1,21 @@
 $(function(){
     $("#bio-text").hide();
-    $("#cmu-summary-text").hide();
+    $(".summary-text").hide();
     $("#bio-text").fadeIn(2000);
 
-    $("#cmu-summary").hover(function(){
-        $("#cmu-summary-img").css('filter', 'blur(5px)');
-        $("#cmu-summary-text").fadeIn(100);
-        }, function(){
-        $("#cmu-summary-img").css('filter', 'blur(0px)');
-        $("#cmu-summary-text").hide();
-    });
-
+    hover_summary('cmu');
+    hover_summary('usc');
+    hover_summary('portable-piano');
+    hover_summary('bird-watching');
 })
+
+
+function hover_summary(id){
+    $("#"+id+"-summary").hover(function(){
+        $("#"+id+"-summary-img").css('filter', 'blur(5px)');
+        $("#"+id+"-summary-text").fadeIn(100);
+        }, function(){
+        $("#"+id+"-summary-img").css('filter', 'blur(0px)');
+        $("#"+id+"-summary-text").hide();
+    });
+}
