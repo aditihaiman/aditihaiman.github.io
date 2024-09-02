@@ -33,3 +33,9 @@
 .project-description{
     font-size: large;
 }
+
+.resume-pdf{
+
+    width:100vh;
+    height: 800px;
+}
