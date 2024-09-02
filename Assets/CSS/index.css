@@ -17,3 +17,15 @@
     font-weight: 300;
     font-size: calc(1.75vw);
 }
+
+.summary-text{
+    background-color: #FC96AF;
+    border-radius: 4px;
+    position: absolute;
+    top: 20%;
+    left: 6vh;
+    width: 15dvw;
+    font-size: 1.2vw;
+    font-weight: bold;
+    color: black;
+}
