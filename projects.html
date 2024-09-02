@@ -1,72 +1,137 @@
 <!doctype html>
 <html lang="en">
-    <head>
 
-        <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" href="data:,">
-    
-        <!-- jquery -->
-        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-        <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
-        <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
-    
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    
-    
-        <title>Projects</title>
-        <link href="./Assets/CSS/index.css" rel="stylesheet">
-        <script src="./Assets/js/main.js"></script>
-    
-    </head>
-    <body class="container">
+<head>
 
-        <nav class="navbar navbar-expand-lg navbar-light m-3" id="navbar">
-            <a class="nav-link pr-5" href="index.html">Home</a>
-            <a class="nav-link pr-5" href="">Projects</a>
-            <!-- <a class="nav-link pr-5" href="index.html">About Me</a> -->
-            <a class="nav-link pr-5" href="">Resume</a>
-        </nav>
-        
-        <div class="container">
-            <div class="text-center">
-                <h1 class="p-2 pb-5">My projects!</h1>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="data:,">
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+    <title>Projects</title>
+    <link href="./Assets/CSS/index.css" rel="stylesheet">
+    <script src="./Assets/js/main.js"></script>
+
+</head>
+
+<body class="container">
+
+    <nav class="navbar navbar-expand-lg navbar-light m-3" id="navbar">
+        <a class="nav-link pr-5" href="index.html">Home</a>
+        <a class="nav-link pr-5" href="">Projects</a>
+        <!-- <a class="nav-link pr-5" href="index.html">About Me</a> -->
+        <a class="nav-link pr-5" href="">Resume</a>
+    </nav>
+
+    <div class="container">
+        <div class="text-center">
+            <h1 class="p-2 pb-5">My projects!</h1>
+        </div>
+
+
+
+        <div class="row pb-4">
+            <div class="col" id="project-page-aj">
+                <img src="./Assets/images/CMUPoster.png" width="375">
             </div>
-              
-            
-    
-            <div class="row pb-4">
-                <div class="col" id="project-page-aj">
-                    <img src="./Assets/images/CMUPoster.png" width="375">
-                </div>
-            </div>
+            <div class="col project-description">
+                <br>
+                A digital learning game to teach angle concepts to middle schoolers. I recreated the game (which was originally made in Unity)
+                with HTML/CSS/JS as part of my summer REU work at the McLearn lab in CMU's HCII.
 
-            <div class="row pb-4">
-                <div class="col" id="project-page-music-cube">
-                    <img src="./Assets/images/USCPoster.png" height="500px">
-                </div>
-            </div>
+                <br><br>
+                See the project poster <a href="./Assets/images/CMUPoster.png">here</a>
+                <br>
 
-            <div class="row pb-4">
-                <div class="col" id="project-page-piano">
-                    <img src="./Assets/images/Portable-Piano.jpeg" width="375px">
-                </div>
-                <div class="col">
-                    https://github.com/aditihaiman/Portable-Piano
-                </div>
-            </div>
-
-            <div class="row pb-4">
-                <div class="col" id="project-page-bird">
-                    <img src="./Assets/images/Bird-Watching.png" width="375px">
-                </div>
+                Read more on the McLearn lab website <a href="https://www.cs.cmu.edu/~bmclaren/mclearnlab/research/?open=publications-Angle-Jungle#project-Angle-Jungle">here</a>
             </div>
         </div>
 
-       
-        
-    </body>
+        <div class="row pb-4">
+            <div class="col" id="project-page-music-cube">
+                <img src="./Assets/images/USCPoster.png" height="500px">
+
+            </div>
+            <div class="col project-description">
+                <br>
+                A musical cube that plays different notes based on its orientation. 
+                Made during my summer REU at USC when I worked in the HaRVI lab with Professor Heather Culbertson as my advisor.
+                <br><br>
+
+                See the project poster <a href="./Assets/images/USCPoster.png">here</a>
+
+                <br>
+
+                I continued this project with an independent study and wrote <a href="./Assets/images/Final_report.pdf">this</a> paper.
+                
+                <br>
+
+                This project was featured in the USC Viterbi <a href="https://viterbischool.usc.edu/news/2022/10/student-roboticists-ideas-come-to-life-during-summer-research-program/">news</a>
+            </div>
+        </div>
+
+        <div class="row pb-4">
+            <div class="col" id="project-page-piano">
+                <img src="./Assets/images/Portable-Piano.jpeg" width="375px">
+            </div>
+            <div class="col project-description">
+                <br>
+                A functional tiny grand piano that fits in your backpack! Made with a programmed microcontroller and tiny buttons under the keys.
+                This was the final project for my Creative Embedded Systems class at Barnard.
+
+                <br><br>
+                See my github <a href="https://github.com/aditihaiman/Portable-Piano">here</a>
+                <br>
+                Read my article about it <a href="https://medium.com/@ah3820/portable-piano-10ae856a90e4">here</a>
+                
+            </div>
+        </div>
+
+        <div class="row pb-4">
+            <div class="col" id="project-page-bird">
+                <img src="./Assets/images/Bird-Watching.png" width="375px">
+            </div>
+            <div class="col project-description">
+                <br>
+                An interactive bird watching game with a joystick embedded in a landscape painting. Made as a project for my Creative Embedded Systems
+                class at Barnard.
+
+                <br><br>
+                See my github <a href="https://github.com/aditihaiman/Interactive-Devices">here</a>
+
+                <br>
+                
+                Read my article about it <a href="https://medium.com/@ah3820/interactive-devices-bird-watching-game-76b8dafcaa97">here</a>
+                
+            </div>
+        </div>
+
+        <div class="row pb-4">
+            <div class="col" id="project-page-jumble">
+                <img src="./Assets/images/Jumble-synth.png" width="375px">
+            </div>
+            <div class="col project-description">
+                <br> 
+                A synth that adds effects to a wonderful picture of my dog, Jumble, when you change the qualities of the
+                synth. Made as a project for my Computational Sound class at Barnard.
+                <br><br>
+                Explore it <a href="https://aditihaiman.github.io/CompSoundLab2/">here</a>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
 </html>

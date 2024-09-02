@@ -8,6 +8,7 @@ $(function(){
     hover_summary('portable-piano');
     hover_summary('bird-watching');
     hover_summary('this-website');
+    hover_summary('jumble');
 })
 
 
