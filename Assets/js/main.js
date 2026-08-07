@@ -9,6 +9,9 @@ $(function(){
     hover_summary('bird-watching');
     hover_summary('this-website');
     hover_summary('jumble');
+    hover_summary('aceai');
+    hover_summary('gba');
+    hover_summary('sdr');
 })
 
 
